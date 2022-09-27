@@ -1,0 +1,21 @@
+isEmpty
+Push a
+Push b
+Push c
+Push d
+Push e
+Push G
+Push D
+Push E
+Push B
+isEmpty
+Pop
+Pop
+Pop
+Pop
+Pop
+Pop
+Pop
+Pop
+Pop
+Quit

@@ -1,0 +1,13 @@
+Test 3
+Stack is empty!
+Stack is not empty!
+B has been popped!
+E has been popped!
+D has been popped!
+G has been popped!
+e has been popped!
+d has been popped!
+c has been popped!
+b has been popped!
+a has been popped!
+END OF TEST
