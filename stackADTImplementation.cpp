@@ -7,12 +7,16 @@ template <typename T>
 Stack<T>::Stack() { }; // Constructor
 // This might be the only draw back with templates tbh. You have to declare the template EVERY time.
 template <typename T>
-void Stack<T>::Pop() {
+T Stack<T>::Pop() {
 	if (top > 0) {
 		top--;
+		T value = items[top];
+		cout << "Pop " << value << endl;
+		return value;
 	}
 	else {
 		cout << "Stack is empty" << endl;
+		return 0;
 	}
 }
 template <typename T>
@@ -26,13 +30,4 @@ bool Stack<T>::isEmpty() const{
 		return true;
 	}
 	return false;
-}
-template <typename T> 
-bool Stack<T>::Quit() const {
-	return true;
-}
-// Getter // 
-template <typename T>
-T Stack<T>::GetRecentElement() const{
-	return items[top - 1];
 }
