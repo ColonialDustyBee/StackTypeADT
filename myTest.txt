@@ -1,13 +1,13 @@
 isEmpty
-Push a
-Push b
-Push c
-Push d
-Push e
-Push G
+Push T
+Push E
+Push E
+Push Y
 Push D
 Push E
-Push B
+Push M
+Push E
+Push M
 isEmpty
 Pop
 Pop
