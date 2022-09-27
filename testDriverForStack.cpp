@@ -37,9 +37,7 @@ int main() {
 			stack.Push(character);
 		}
 		else if (command == "Pop") {
-			outFile << stack.GetRecentElement() << " has been popped!" << endl;
-			cout << "Pop " << stack.GetRecentElement() << endl;
-			stack.Pop();
+			outFile << stack.Pop() << endl;
 		}
 		else if (command == "isEmpty") {
 			bool determiningIfEmpty = stack.isEmpty();
@@ -57,7 +55,7 @@ int main() {
 			outFile << "END OF TEST" << endl;
 			outFile.close();
 			cout << "File has been successfully closed!" << endl;
-			quit = stack.Quit();
+			quit = true;
 		}
 		
 	}
